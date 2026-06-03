@@ -1,415 +1,532 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="ESL Elétrica S.A. – Especialistas em instalações elétricas prediais, manutenção elétrica, painéis elétricos e mais. Atendimento rápido e profissional em São Paulo." />
-  <meta name="keywords" content="eletricista, elétrica predial, instalação elétrica, manutenção elétrica, painel elétrico, São Paulo" />
+  <meta name="description"
+    content="ESL Elétrica S.A. – Especialistas em instalações elétricas prediais, manutenção elétrica, painéis elétricos e mais. Atendimento rápido e profissional em São Paulo." />
+  <meta name="keywords"
+    content="eletricista, elétrica predial, instalação elétrica, manutenção elétrica, painel elétrico, São Paulo" />
   <meta name="author" content="ESL Elétrica S.A." />
   <meta property="og:title" content="ESL Elétrica S.A. – Soluções Elétricas Prediais" />
-  <meta property="og:description" content="Especialistas em instalações e manutenção elétrica predial. Qualidade, segurança e atendimento profissional." />
+  <meta property="og:description"
+    content="Especialistas em instalações e manutenção elétrica predial. Qualidade, segurança e atendimento profissional." />
   <meta property="og:type" content="website" />
   <title>ESL Elétrica S.A. – Soluções Elétricas Prediais</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="styles/styles.css" />
-  <script src="js/script.js"></script>
-  </head>
+</head>
+<script src="js/script.js"></script>
+
 <body>
- 
-<!-- HEADER -->
-<header id="header">
-  <a href="#hero" class="logo">
-    <div class="logo-icon">ESL</div>
-    <div class="logo-text">
-      <strong>ESL Elétrica S.A.</strong>
-      <span>Soluções Elétricas</span>
+
+  <!-- HEADER -->
+  <header id="header">
+    <a href="#hero" class="logo">
+      <div class="logo-icon">ESL</div>
+      <div class="logo-text">
+        <strong>ESL Elétrica S.A.</strong>
+        <span>Soluções Elétricas</span>
+      </div>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#diferenciais">Diferenciais</a>
+      <a href="#contato">Contato</a>
+      <a href="https://wa.me/5511982856831?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank"
+        class="nav-cta">WhatsApp</a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+        </svg>
+        Especialistas em Elétrica Predial
+      </div>
+      <h1 class="hero-title">
+        Energia com<br>
+        <span class="accent">Segurança</span>
+        e Precisão
+      </h1>
+      <p class="hero-desc">
+        Soluções completas em instalações e manutenção elétrica predial. Da tomada ao painel de distribuição —
+        qualidade, organização e atendimento profissional em cada serviço.
+      </p>
+      <div class="hero-actions">
+        <a href="https://wa.me/5511982856831?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank"
+          class="btn-primary">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg>
+          Solicitar Orçamento
+        </a>
+        <a href="#servicos" class="btn-secondary">Ver Serviços</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">10+</div>
+          <div class="stat-label">Anos de Experiência</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <div class="stat-num">500+</div>
+          <div class="stat-label">Clientes Atendidos</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <div class="stat-num">100%</div>
+          <div class="stat-label">Compromisso com Qualidade</div>
+        </div>
+      </div>
     </div>
+
+    <div class="hero-scroll">
+      <span>Explore</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre">
+    <div class="sobre-grid">
+      <div class="sobre-visual reveal">
+        <div class="sobre-img-wrap">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+            alt="Eletricista profissional trabalhando" loading="lazy" />
+        </div>
+        <div class="sobre-badge-float">
+          <strong>NR-10</strong>
+          <span>Certificado</span>
+        </div>
+      </div>
+
+      <div class="sobre-content">
+        <div class="section-label reveal">Sobre a Empresa</div>
+        <h2 class="section-title reveal reveal-delay-1">
+          Tradição e Excelência em<br>Elétrica Predial
+        </h2>
+        <p class="reveal reveal-delay-2">
+          A <strong>ESL Elétrica S.A.</strong> é uma empresa especializada em serviços elétricos prediais, atuando com
+          comprometimento e qualidade técnica em cada projeto. Desde nossa fundação, temos como missão oferecer soluções
+          elétricas seguras, eficientes e duradouras para residências, comércios e indústrias.
+        </p>
+        <p class="reveal reveal-delay-2">
+          Nossa equipe é formada por eletricistas certificados, treinados e atualizados com as mais recentes normas
+          técnicas da ABNT e NR-10, garantindo segurança em todos os serviços executados.
+        </p>
+
+        <div class="sobre-pillars">
+          <div class="pillar reveal reveal-delay-1">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+            </div>
+            <div class="pillar-text">
+              <strong>Segurança Total</strong>
+              <span>Normas ABNT e NR-10</span>
+            </div>
+          </div>
+          <div class="pillar reveal reveal-delay-2">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 11l3 3L22 4" />
+                <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" />
+              </svg>
+            </div>
+            <div class="pillar-text">
+              <strong>Qualidade Garantida</strong>
+              <span>Materiais certificados</span>
+            </div>
+          </div>
+          <div class="pillar reveal reveal-delay-3">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+            </div>
+            <div class="pillar-text">
+              <strong>Pontualidade</strong>
+              <span>Compromisso com prazo</span>
+            </div>
+          </div>
+          <div class="pillar reveal reveal-delay-4">
+            <div class="pillar-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 00-3-3.87" />
+                <path d="M16 3.13a4 4 0 010 7.75" />
+              </svg>
+            </div>
+            <div class="pillar-text">
+              <strong>Equipe Especializada</strong>
+              <span>Profissionais qualificados</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos">
+    <div class="servicos-header">
+      <div class="section-label reveal">Nossos Serviços</div>
+      <h2 class="section-title reveal reveal-delay-1">Soluções Completas para seu Projeto Elétrico</h2>
+      <p class="reveal reveal-delay-2">Atendemos desde pequenos reparos até grandes instalações elétricas, sempre com o
+        mesmo padrão de qualidade e segurança.</p>
+    </div>
+
+    <div class="servicos-grid">
+      <div class="servico-card reveal">
+        <div class="servico-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+          </svg>
+        </div>
+        <h3>Instalações Elétricas</h3>
+        <p>Projetos e execução de instalações elétricas completas para residências, comércios e galpões industriais.</p>
+      </div>
+      <div class="servico-card reveal reveal-delay-1">
+        <div class="servico-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5" />
+            <line x1="12" y1="1" x2="12" y2="3" />
+            <line x1="12" y1="21" x2="12" y2="23" />
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+            <line x1="1" y1="12" x2="3" y2="12" />
+            <line x1="21" y1="12" x2="23" y2="12" />
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+          </svg>
+        </div>
+        <h3>Iluminação Residencial e Comercial</h3>
+        <p>Projetos de iluminação eficientes para ambientes internos e externos, com foco em conforto e economia.</p>
+      </div>
+      <div class="servico-card reveal reveal-delay-2">
+        <div class="servico-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="7" width="20" height="14" rx="2" />
+            <path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2" />
+            <line x1="12" y1="12" x2="12" y2="16" />
+            <line x1="10" y1="14" x2="14" y2="14" />
+          </svg>
+        </div>
+        <h3>Instalação de Tomadas</h3>
+        <p>Instalação e substituição de tomadas e interruptores com materiais de alta qualidade e segurança.</p>
+      </div>
+      <div class="servico-card reveal">
+        <div class="servico-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z" />
+            <polyline points="7.5 4.21 12 6.81 16.5 4.21" />
+          </svg>
+        </div>
+        <h3>Instalação de LEDs</h3>
+        <p>Substituição e instalação de iluminação LED para maior economia de energia e melhor qualidade de luz.</p>
+      </div>
+      <div class="servico-card reveal reveal-delay-1">
+        <div class="servico-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="3" width="18" height="18" rx="2" />
+            <line x1="9" y1="9" x2="9" y2="15" />
+            <line x1="15" y1="9" x2="15" y2="15" />
+            <line x1="9" y1="12" x2="15" y2="12" />
+          </svg>
+        </div>
+        <h3>Montagem de Painéis Elétricos</h3>
+        <p>Elaboração, montagem e adequação de quadros e painéis de distribuição elétrica conforme normas ABNT.</p>
+      </div>
+      <div class="servico-card reveal reveal-delay-2">
+        <div class="servico-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 8h1a4 4 0 010 8h-1" />
+            <path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z" />
+            <line x1="6" y1="1" x2="6" y2="4" />
+            <line x1="10" y1="1" x2="10" y2="4" />
+            <line x1="14" y1="1" x2="14" y2="4" />
+          </svg>
+        </div>
+        <h3>Troca de Fiação</h3>
+        <p>Substituição de fiação antiga e danificada por cabos novos, prevenindo curtos-circuitos e riscos de incêndio.
+        </p>
+      </div>
+      <div class="servico-card reveal">
+        <div class="servico-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" />
+          </svg>
+        </div>
+        <h3>Manutenção Preventiva e Corretiva</h3>
+        <p>Inspeção periódica e correção de falhas elétricas, evitando paradas e aumentando a vida útil das instalações.
+        </p>
+      </div>
+      <div class="servico-card reveal reveal-delay-1">
+        <div class="servico-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="3" />
+            <path d="M19.07 4.93A10 10 0 016.99 19.07M4.93 4.93A10 10 0 0117.07 19.07" />
+          </svg>
+        </div>
+        <h3>Reparos Elétricos em Geral</h3>
+        <p>Atendimento rápido para reparos de qualquer natureza elétrica, sejam emergenciais ou agendados.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section id="diferenciais">
+    <div class="dif-layout">
+      <div class="dif-left">
+        <div class="section-label reveal">Por que nos escolher</div>
+        <h2 class="section-title reveal reveal-delay-1">Nossos Diferenciais que Fazem a Diferença</h2>
+        <p class="reveal reveal-delay-2">
+          Trabalhamos com foco total na satisfação do cliente, unindo velocidade de atendimento, qualidade técnica e
+          preços justos. Cada projeto recebe atenção personalizada.
+        </p>
+        <a href="https://wa.me/5511982856831?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank"
+          class="btn-primary reveal reveal-delay-3">
+          <svg viewBox="0 0 24 24" fill="currentColor" style="width:20px;height:20px">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg>
+          Fale Conosco Agora
+        </a>
+      </div>
+
+      <div class="dif-grid">
+        <div class="dif-card reveal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+          </svg>
+          <h3>Atendimento Rápido</h3>
+          <p>Respondemos seu contato em minutos e agendamos o serviço no menor tempo possível.</p>
+        </div>
+        <div class="dif-card reveal reveal-delay-1">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 11l3 3L22 4" />
+            <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" />
+          </svg>
+          <h3>Serviço com Qualidade</h3>
+          <p>Executamos cada serviço seguindo as mais rigorosas normas técnicas, com acabamento impecável.</p>
+        </div>
+        <div class="dif-card reveal reveal-delay-2">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+          </svg>
+          <h3>Segurança e Organização</h3>
+          <p>Trabalhamos de forma organizada, mantendo o ambiente limpo e os padrões de segurança.</p>
+        </div>
+        <div class="dif-card reveal reveal-delay-3">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+            <circle cx="9" cy="7" r="4" />
+            <path d="M23 21v-2a4 4 0 00-3-3.87" />
+            <path d="M16 3.13a4 4 0 010 7.75" />
+          </svg>
+          <h3>Equipe Especializada</h3>
+          <p>Eletricistas com formação técnica, certificados e em constante atualização profissional.</p>
+        </div>
+        <div class="dif-card reveal" style="grid-column: 1 / -1;">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg>
+          <h3>Orçamento Rápido via WhatsApp</h3>
+          <p>Envie uma mensagem pelo WhatsApp e receba seu orçamento de forma rápida e sem burocracia. Nosso atendimento
+            é ágil e descomplicado.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <div class="contato-layout">
+      <div class="contato-info">
+        <div class="section-label reveal">Fale Conosco</div>
+        <h2 class="section-title reveal reveal-delay-1">Entre em<br>Contato</h2>
+
+        <div class="contato-item reveal reveal-delay-2">
+          <div class="contato-item-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+          </div>
+          <div class="contato-item-text">
+            <strong>Endereço</strong>
+            <span>Rua Crispo, 88 – Jardim Cris</span>
+          </div>
+        </div>
+
+        <div class="contato-item reveal reveal-delay-2">
+          <div class="contato-item-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013 4.18a2 2 0 012-2.18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L9.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+            </svg>
+          </div>
+          <div class="contato-item-text">
+            <strong>Telefone / WhatsApp</strong>
+            <span>(11) 98285-6831</span>
+          </div>
+        </div>
+
+        <div class="contato-item reveal reveal-delay-3">
+          <div class="contato-item-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <polyline points="8 21 12 17 16 21" />
+              <line x1="12" y1="17" x2="12" y2="21" />
+            </svg>
+          </div>
+          <div class="contato-item-text">
+            <strong>CNPJ</strong>
+            <span>12.473.186/0001-85</span>
+          </div>
+        </div>
+
+        <a href="https://wa.me/5511982856831?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank"
+          class="btn-whatsapp-main reveal reveal-delay-4">
+          <svg viewBox="0 0 24 24" fill="currentColor" style="width:22px;height:22px">
+            <path
+              d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+          </svg>
+          Chamar no WhatsApp
+        </a>
+      </div>
+
+      <div class="contato-form reveal reveal-delay-2">
+        <h3>Solicite seu Orçamento</h3>
+        <form id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nome">Seu Nome</label>
+              <input type="text" id="nome" placeholder="João Silva" required />
+            </div>
+            <div class="form-group">
+              <label for="telefone">Telefone</label>
+              <input type="tel" id="telefone" placeholder="(11) 9xxxx-xxxx" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="servico">Serviço Desejado</label>
+            <select id="servico" required>
+              <option value="" disabled selected>Selecione um serviço</option>
+              <option>Instalações Elétricas</option>
+              <option>Iluminação Residencial e Comercial</option>
+              <option>Instalação de Tomadas</option>
+              <option>Instalação de LEDs</option>
+              <option>Montagem de Painéis Elétricos</option>
+              <option>Troca de Fiação</option>
+              <option>Manutenção Elétrica Preventiva</option>
+              <option>Manutenção Elétrica Corretiva</option>
+              <option>Reparos Elétricos em Geral</option>
+              <option>Outro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Descreva o Serviço</label>
+            <textarea id="mensagem" placeholder="Descreva brevemente o que precisa ser feito..." required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Enviar via WhatsApp</button>
+        </form>
+        <div class="form-success" id="formSuccess">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 11.08V12a10 10 0 11-5.93-9.14" />
+            <polyline points="22 4 12 14.01 9 11.01" />
+          </svg>
+          <h4>Mensagem Enviada!</h4>
+          <p>Você será redirecionado para o WhatsApp. Entraremos em contato em breve.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#hero" class="logo">
+          <div class="logo-icon">ESL</div>
+          <div class="logo-text">
+            <strong>ESL Elétrica S.A.</strong>
+            <span>Soluções Elétricas</span>
+          </div>
+        </a>
+        <p>Especialistas em instalações e manutenção elétrica predial. Qualidade, segurança e atendimento profissional.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#sobre">Sobre a Empresa</a></li>
+          <li><a href="#servicos">Nossos Serviços</a></li>
+          <li><a href="#diferenciais">Diferenciais</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Serviços</h4>
+        <ul>
+          <li><a href="#servicos">Instalações Elétricas</a></li>
+          <li><a href="#servicos">Painéis Elétricos</a></li>
+          <li><a href="#servicos">Manutenção Elétrica</a></li>
+          <li><a href="#servicos">Instalação de LEDs</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Contato</h4>
+        <ul>
+          <li><a href="tel:+5511982856831">(11) 98285-6831</a></li>
+          <li><a href="https://wa.me/5511982856831" target="_blank">WhatsApp</a></li>
+          <li><a href="#contato">Rua Crispo, 88 – Jardim Cris</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2024 <strong>ESL Elétrica S.A.</strong> – Todos os direitos reservados</p>
+      <p>CNPJ: <strong>12.473.186/0001-85</strong> &nbsp;|&nbsp; Tel: <strong>(11) 98285-6831</strong></p>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOAT -->
+  <a href="https://wa.me/5511982856831?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank"
+    class="whatsapp-float" aria-label="Contato via WhatsApp">
+    <span class="whatsapp-label">Solicitar Orçamento</span>
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+    </svg>
   </a>
- 
-  <nav class="main-nav" id="mainNav">
-    <a href="#sobre">Sobre</a>
-    <a href="#servicos">Serviços</a>
-    <a href="#diferenciais">Diferenciais</a>
-    <a href="#contato">Contato</a>
-    <a href="https://wa.me/5511982856831?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="nav-cta">WhatsApp</a>
-  </nav>
- 
-  <button class="hamburger" id="hamburger" aria-label="Menu">
-    <span></span><span></span><span></span>
-  </button>
-</header>
- 
-<!-- HERO -->
-<section id="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-grid"></div>
-  <div class="hero-content">
-    <div class="hero-badge">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-      Especialistas em Elétrica Predial
-    </div>
-    <h1 class="hero-title">
-      Energia com<br>
-      <span class="accent">Segurança</span>
-      e Precisão
-    </h1>
-    <p class="hero-desc">
-      Soluções completas em instalações e manutenção elétrica predial. Da tomada ao painel de distribuição — qualidade, organização e atendimento profissional em cada serviço.
-    </p>
-    <div class="hero-actions">
-      <a href="https://wa.me/5511982856831?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="btn-primary">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        Solicitar Orçamento
-      </a>
-      <a href="#servicos" class="btn-secondary">Ver Serviços</a>
-    </div>
-    <div class="hero-stats">
-      <div class="stat">
-        <div class="stat-num">10+</div>
-        <div class="stat-label">Anos de Experiência</div>
-      </div>
-      <div class="stat-divider"></div>
-      <div class="stat">
-        <div class="stat-num">500+</div>
-        <div class="stat-label">Clientes Atendidos</div>
-      </div>
-      <div class="stat-divider"></div>
-      <div class="stat">
-        <div class="stat-num">100%</div>
-        <div class="stat-label">Compromisso com Qualidade</div>
-      </div>
-    </div>
-  </div>
- 
-  <div class="hero-scroll">
-    <span>Explore</span>
-    <div class="scroll-line"></div>
-  </div>
-</section>
- 
-<!-- SOBRE -->
-<section id="sobre">
-  <div class="sobre-grid">
-    <div class="sobre-visual reveal">
-      <div class="sobre-img-wrap">
-        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" alt="Eletricista profissional trabalhando" loading="lazy" />
-      </div>
-      <div class="sobre-badge-float">
-        <strong>NR-10</strong>
-        <span>Certificado</span>
-      </div>
-    </div>
- 
-    <div class="sobre-content">
-      <div class="section-label reveal">Sobre a Empresa</div>
-      <h2 class="section-title reveal reveal-delay-1">
-        Tradição e Excelência em<br>Elétrica Predial
-      </h2>
-      <p class="reveal reveal-delay-2">
-        A <strong>ESL Elétrica S.A.</strong> é uma empresa especializada em serviços elétricos prediais, atuando com comprometimento e qualidade técnica em cada projeto. Desde nossa fundação, temos como missão oferecer soluções elétricas seguras, eficientes e duradouras para residências, comércios e indústrias.
-      </p>
-      <p class="reveal reveal-delay-2">
-        Nossa equipe é formada por eletricistas certificados, treinados e atualizados com as mais recentes normas técnicas da ABNT e NR-10, garantindo segurança em todos os serviços executados.
-      </p>
- 
-      <div class="sobre-pillars">
-        <div class="pillar reveal reveal-delay-1">
-          <div class="pillar-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-          </div>
-          <div class="pillar-text">
-            <strong>Segurança Total</strong>
-            <span>Normas ABNT e NR-10</span>
-          </div>
-        </div>
-        <div class="pillar reveal reveal-delay-2">
-          <div class="pillar-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
-          </div>
-          <div class="pillar-text">
-            <strong>Qualidade Garantida</strong>
-            <span>Materiais certificados</span>
-          </div>
-        </div>
-        <div class="pillar reveal reveal-delay-3">
-          <div class="pillar-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-          </div>
-          <div class="pillar-text">
-            <strong>Pontualidade</strong>
-            <span>Compromisso com prazo</span>
-          </div>
-        </div>
-        <div class="pillar reveal reveal-delay-4">
-          <div class="pillar-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
-          </div>
-          <div class="pillar-text">
-            <strong>Equipe Especializada</strong>
-            <span>Profissionais qualificados</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
- 
-<!-- SERVIÇOS -->
-<section id="servicos">
-  <div class="servicos-header">
-    <div class="section-label reveal">Nossos Serviços</div>
-    <h2 class="section-title reveal reveal-delay-1">Soluções Completas para seu Projeto Elétrico</h2>
-    <p class="reveal reveal-delay-2">Atendemos desde pequenos reparos até grandes instalações elétricas, sempre com o mesmo padrão de qualidade e segurança.</p>
-  </div>
- 
-  <div class="servicos-grid">
-    <div class="servico-card reveal">
-      <div class="servico-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-      </div>
-      <h3>Instalações Elétricas</h3>
-      <p>Projetos e execução de instalações elétricas completas para residências, comércios e galpões industriais.</p>
-    </div>
-    <div class="servico-card reveal reveal-delay-1">
-      <div class="servico-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
-      </div>
-      <h3>Iluminação Residencial e Comercial</h3>
-      <p>Projetos de iluminação eficientes para ambientes internos e externos, com foco em conforto e economia.</p>
-    </div>
-    <div class="servico-card reveal reveal-delay-2">
-      <div class="servico-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg>
-      </div>
-      <h3>Instalação de Tomadas</h3>
-      <p>Instalação e substituição de tomadas e interruptores com materiais de alta qualidade e segurança.</p>
-    </div>
-    <div class="servico-card reveal">
-      <div class="servico-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/><polyline points="7.5 4.21 12 6.81 16.5 4.21"/></svg>
-      </div>
-      <h3>Instalação de LEDs</h3>
-      <p>Substituição e instalação de iluminação LED para maior economia de energia e melhor qualidade de luz.</p>
-    </div>
-    <div class="servico-card reveal reveal-delay-1">
-      <div class="servico-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="9" y1="9" x2="9" y2="15"/><line x1="15" y1="9" x2="15" y2="15"/><line x1="9" y1="12" x2="15" y2="12"/></svg>
-      </div>
-      <h3>Montagem de Painéis Elétricos</h3>
-      <p>Elaboração, montagem e adequação de quadros e painéis de distribuição elétrica conforme normas ABNT.</p>
-    </div>
-    <div class="servico-card reveal reveal-delay-2">
-      <div class="servico-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 010 8h-1"/><path d="M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
-      </div>
-      <h3>Troca de Fiação</h3>
-      <p>Substituição de fiação antiga e danificada por cabos novos, prevenindo curtos-circuitos e riscos de incêndio.</p>
-    </div>
-    <div class="servico-card reveal">
-      <div class="servico-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
-      </div>
-      <h3>Manutenção Preventiva e Corretiva</h3>
-      <p>Inspeção periódica e correção de falhas elétricas, evitando paradas e aumentando a vida útil das instalações.</p>
-    </div>
-    <div class="servico-card reveal reveal-delay-1">
-      <div class="servico-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93A10 10 0 016.99 19.07M4.93 4.93A10 10 0 0117.07 19.07"/></svg>
-      </div>
-      <h3>Reparos Elétricos em Geral</h3>
-      <p>Atendimento rápido para reparos de qualquer natureza elétrica, sejam emergenciais ou agendados.</p>
-    </div>
-  </div>
-</section>
- 
-<!-- DIFERENCIAIS -->
-<section id="diferenciais">
-  <div class="dif-layout">
-    <div class="dif-left">
-      <div class="section-label reveal">Por que nos escolher</div>
-      <h2 class="section-title reveal reveal-delay-1">Nossos Diferenciais que Fazem a Diferença</h2>
-      <p class="reveal reveal-delay-2">
-        Trabalhamos com foco total na satisfação do cliente, unindo velocidade de atendimento, qualidade técnica e preços justos. Cada projeto recebe atenção personalizada.
-      </p>
-      <a href="https://wa.me/5511982856831?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="btn-primary reveal reveal-delay-3">
-        <svg viewBox="0 0 24 24" fill="currentColor" style="width:20px;height:20px"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        Fale Conosco Agora
-      </a>
-    </div>
- 
-    <div class="dif-grid">
-      <div class="dif-card reveal">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-        <h3>Atendimento Rápido</h3>
-        <p>Respondemos seu contato em minutos e agendamos o serviço no menor tempo possível.</p>
-      </div>
-      <div class="dif-card reveal reveal-delay-1">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
-        <h3>Serviço com Qualidade</h3>
-        <p>Executamos cada serviço seguindo as mais rigorosas normas técnicas, com acabamento impecável.</p>
-      </div>
-      <div class="dif-card reveal reveal-delay-2">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        <h3>Segurança e Organização</h3>
-        <p>Trabalhamos de forma organizada, mantendo o ambiente limpo e os padrões de segurança.</p>
-      </div>
-      <div class="dif-card reveal reveal-delay-3">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
-        <h3>Equipe Especializada</h3>
-        <p>Eletricistas com formação técnica, certificados e em constante atualização profissional.</p>
-      </div>
-      <div class="dif-card reveal" style="grid-column: 1 / -1;">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        <h3>Orçamento Rápido via WhatsApp</h3>
-        <p>Envie uma mensagem pelo WhatsApp e receba seu orçamento de forma rápida e sem burocracia. Nosso atendimento é ágil e descomplicado.</p>
-      </div>
-    </div>
-  </div>
-</section>
- 
-<!-- CONTATO -->
-<section id="contato">
-  <div class="contato-layout">
-    <div class="contato-info">
-      <div class="section-label reveal">Fale Conosco</div>
-      <h2 class="section-title reveal reveal-delay-1">Entre em<br>Contato</h2>
- 
-      <div class="contato-item reveal reveal-delay-2">
-        <div class="contato-item-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-        </div>
-        <div class="contato-item-text">
-          <strong>Endereço</strong>
-          <span>Rua Crispo, 88 – Jardim Cris</span>
-        </div>
-      </div>
- 
-      <div class="contato-item reveal reveal-delay-2">
-        <div class="contato-item-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013 4.18a2 2 0 012-2.18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L9.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-        </div>
-        <div class="contato-item-text">
-          <strong>Telefone / WhatsApp</strong>
-          <span>(11) 98285-6831</span>
-        </div>
-      </div>
- 
-      <div class="contato-item reveal reveal-delay-3">
-        <div class="contato-item-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><polyline points="8 21 12 17 16 21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-        </div>
-        <div class="contato-item-text">
-          <strong>CNPJ</strong>
-          <span>12.473.186/0001-85</span>
-        </div>
-      </div>
- 
-      <a href="https://wa.me/5511982856831?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="btn-whatsapp-main reveal reveal-delay-4">
-        <svg viewBox="0 0 24 24" fill="currentColor" style="width:22px;height:22px"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        Chamar no WhatsApp
-      </a>
-    </div>
- 
-    <div class="contato-form reveal reveal-delay-2">
-      <h3>Solicite seu Orçamento</h3>
-      <form id="contactForm">
-        <div class="form-row">
-          <div class="form-group">
-            <label for="nome">Seu Nome</label>
-            <input type="text" id="nome" placeholder="João Silva" required />
-          </div>
-          <div class="form-group">
-            <label for="telefone">Telefone</label>
-            <input type="tel" id="telefone" placeholder="(11) 9xxxx-xxxx" required />
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="servico">Serviço Desejado</label>
-          <select id="servico" required>
-            <option value="" disabled selected>Selecione um serviço</option>
-            <option>Instalações Elétricas</option>
-            <option>Iluminação Residencial e Comercial</option>
-            <option>Instalação de Tomadas</option>
-            <option>Instalação de LEDs</option>
-            <option>Montagem de Painéis Elétricos</option>
-            <option>Troca de Fiação</option>
-            <option>Manutenção Elétrica Preventiva</option>
-            <option>Manutenção Elétrica Corretiva</option>
-            <option>Reparos Elétricos em Geral</option>
-            <option>Outro</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label for="mensagem">Descreva o Serviço</label>
-          <textarea id="mensagem" placeholder="Descreva brevemente o que precisa ser feito..." required></textarea>
-        </div>
-        <button type="submit" class="btn-submit">Enviar via WhatsApp</button>
-      </form>
-      <div class="form-success" id="formSuccess">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-        <h4>Mensagem Enviada!</h4>
-        <p>Você será redirecionado para o WhatsApp. Entraremos em contato em breve.</p>
-      </div>
-    </div>
-  </div>
-</section>
- 
-<!-- FOOTER -->
-<footer>
-  <div class="footer-top">
-    <div class="footer-brand">
-      <a href="#hero" class="logo">
-        <div class="logo-icon">ESL</div>
-        <div class="logo-text">
-          <strong>ESL Elétrica S.A.</strong>
-          <span>Soluções Elétricas</span>
-        </div>
-      </a>
-      <p>Especialistas em instalações e manutenção elétrica predial. Qualidade, segurança e atendimento profissional.</p>
-    </div>
- 
-    <div class="footer-links">
-      <h4>Navegação</h4>
-      <ul>
-        <li><a href="#sobre">Sobre a Empresa</a></li>
-        <li><a href="#servicos">Nossos Serviços</a></li>
-        <li><a href="#diferenciais">Diferenciais</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </div>
- 
-    <div class="footer-links">
-      <h4>Serviços</h4>
-      <ul>
-        <li><a href="#servicos">Instalações Elétricas</a></li>
-        <li><a href="#servicos">Painéis Elétricos</a></li>
-        <li><a href="#servicos">Manutenção Elétrica</a></li>
-        <li><a href="#servicos">Instalação de LEDs</a></li>
-      </ul>
-    </div>
- 
-    <div class="footer-links">
-      <h4>Contato</h4>
-      <ul>
-        <li><a href="tel:+5511982856831">(11) 98285-6831</a></li>
-        <li><a href="https://wa.me/5511982856831" target="_blank">WhatsApp</a></li>
-        <li><a href="#contato">Rua Crispo, 88 – Jardim Cris</a></li>
-      </ul>
-    </div>
-  </div>
- 
-  <div class="footer-bottom">
-    <p>© 2024 <strong>ESL Elétrica S.A.</strong> – Todos os direitos reservados</p>
-    <p>CNPJ: <strong>12.473.186/0001-85</strong> &nbsp;|&nbsp; Tel: <strong>(11) 98285-6831</strong></p>
-  </div>
-</footer>
- 
-<!-- WHATSAPP FLOAT -->
-<a href="https://wa.me/5511982856831?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento." target="_blank" class="whatsapp-float" aria-label="Contato via WhatsApp">
-  <span class="whatsapp-label">Solicitar Orçamento</span>
-  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-</a>
 </body>
+
 </html>
